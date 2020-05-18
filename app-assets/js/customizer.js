@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(function(){
     $('div.hindi').hide();// hide it initially
-    $('button').on('click', function(){
+    $('#myDIV').on('click', function(){
       var x = document.getElementById("myDIV");
   if (x.innerHTML === "English") {
     x.innerHTML = "عربي";
@@ -14,7 +14,7 @@ $(document).ready(function() {
   });
   $(function(){
     $('div.arabic').hide();// hide it initially
-    $('button').on('click', function(){
+    $('#myDIV2').on('click', function(){
       var x = document.getElementById("myDIV2");
   if (x.innerHTML === "English") {
     x.innerHTML = "عربي";
