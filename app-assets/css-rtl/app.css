@@ -3359,7 +3359,7 @@ input[type='submit'].btn-block, input[type='reset'].btn-block, input[type='butto
 .dropdown-menu {
   position : absolute;
   top : 100%;
-  right : 0;
+  left : 0;
   z-index : 1000;
   display : none;
   float : right;
